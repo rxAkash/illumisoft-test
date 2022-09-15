@@ -1,0 +1,30 @@
+import { ADMISSION_RECOMMENDATIONS, ANTIBIOTIC_ANTIVIRAL_RECCOMENDATIONS, ANTIBIOTIC_OPTIONS, BACTERIAL_INFECTION_ASSESMENT, HIGN_RISK_RECCOMENDATIONS, HSV_CHECKLIST, HSV_EVALUATION, HSV_RECOMMENDATIONS, LOW_ANTIBIOTIC_RECOMMENDATIONS, LOW_RISK_RECOMMENDATIONS, SEVEN_TWENTY_EIGHT_DIAGNOSTIC_TESTS, SEVEN_TWENTY_EIGHT_DISCLAIMER,URINALYSIS_QUESTIONS } from "./routes";
+
+export const SEVEN_TWENTY_EIGHT_NAV_LEGEND = [
+  {
+    title: 'Disclaimer',
+    route: SEVEN_TWENTY_EIGHT_DISCLAIMER,
+  },
+  {
+    title: 'Diagnostic Tests',
+    route: SEVEN_TWENTY_EIGHT_DIAGNOSTIC_TESTS,
+  },
+  {
+    title: 'HSV Risk Assessment',
+    route: HSV_CHECKLIST
+  },
+  {
+    title: 'High-Risk Recommendations',
+    route: HIGN_RISK_RECCOMENDATIONS,
+    subroute:true
+  },
+  {
+    title:'Urinalysis Questions',
+    route:URINALYSIS_QUESTIONS
+  },
+  {
+    title: 'Admission Recommendations',
+    route: ADMISSION_RECOMMENDATIONS
+  },
+  
+]

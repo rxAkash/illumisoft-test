@@ -1,0 +1,9 @@
+export const FEBRILE_INFANT_HOME = 'Febrile Infant Decision Support';
+export const INFANT_APPEARS_DISCLAIMERS = 'Infant Appears Disclaimers';
+export const INFANT_APPEARS_TESTS = 'Infant Appears Tests';
+export const ANTIBIOTIC_OPTIONS = 'Antibiotic Options';
+export const INFANT_APPEARS_ILL = 'Infant appears ill';
+export const ZERO_SIX_DISCLAIMER = '0-7 Days Disclaimer';
+export const ZERO_SIX_DIAGNOSTIC_TEST = '0-7 Diagnostic Tests';
+export const ZERO_SIX_ANTIBIOTICS = '0-7 Antibiotics';
+export const ZERO_SIX_DAYS = '0 - 7 Days';
